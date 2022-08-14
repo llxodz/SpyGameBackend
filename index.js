@@ -1,15 +1,10 @@
 const { log }  = require('./log')
 const express = require("express");
-const Category = require('./models/category')
-const Location = require('./models/location')
+const { categoriesStub } = require('./categories+stub')
 
 const appExpress = express();
 
-var value = [
-  new Category(0, "В доме", [
-    new Location("some", "sadasdassasdasd")
-  ])
-];
+let value = categoriesStub()
 
 appExpress.get("/allCategories", function(req, res) {
   res.send(value)

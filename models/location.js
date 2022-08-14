@@ -1,9 +1,7 @@
 class Location {
   name
-  description
-  constructor(name, description) {
+  constructor(name) {
     this.name = name
-    this.description = description
   }
 };
 
