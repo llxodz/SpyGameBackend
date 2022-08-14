@@ -1,0 +1,22 @@
+{
+  "name": "spygamebackend",
+  "version": "1.0.0",
+  "description": "spy game backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llxodz/SpyGameBackend.git"
+  },
+  "keywords": [
+    "words"
+  ],
+  "author": "llxodz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/llxodz/SpyGameBackend/issues"
+  },
+  "homepage": "https://github.com/llxodz/SpyGameBackend#readme"
+}
