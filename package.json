@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/llxodz/SpyGameBackend/issues"
   },
-  "homepage": "https://github.com/llxodz/SpyGameBackend#readme"
+  "homepage": "https://github.com/llxodz/SpyGameBackend#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
 }
