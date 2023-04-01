@@ -1,0 +1,21 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "./index.js",
+        "use": "@vercel/node"
+      }
+    ],
+    "node_modules": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ],
+    "categories": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
