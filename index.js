@@ -6,10 +6,9 @@ const appExpress = express();
 
 let value = categoriesStub()
 
-appExpress.get("/allCategories", function(req, res) {
+appExpress.use("/allCategories", function(req, res) {
   res.send(value)
 })
 
-appExpress.listen(3000, function(){
-  log("server is running on port 3000");
-})
+const port = process.env.PORT || 9001;
+app.listen(port, () => console.log(`Listening to port ${port}`));
