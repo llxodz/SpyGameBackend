@@ -1,14 +1,21 @@
 const { log }  = require('./log')
 const express = require("express");
 const { categoriesStub } = require('./categories+stub')
+const router = express.Router();
 
 const appExpress = express();
 
 let value = categoriesStub()
 
-appExpress.use("/allCategories", function(req, res) {
-  res.send(value)
+const allCategories = router.get("/", async (req, res) => {
+  try {
+    res.send(value)
+  } catch (error) {
+    return res.status(500).send("Server error")
+  }
 })
 
+appExpress.use("/allCategories", allCategories)
+
 const port = process.env.PORT || 9001;
-app.listen(port, () => console.log(`Listening to port ${port}`));
+appExpress.listen(port, () => console.log(`Listening to port ${port}`));
