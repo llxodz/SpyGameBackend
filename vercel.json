@@ -6,12 +6,6 @@
         "use": "@vercel/node"
       }
     ],
-    "node_modules": [
-      {
-        "src": "/(.*)",
-        "dest": "/"
-      }
-    ],
     "categories": [
       {
         "src": "/(.*)",
