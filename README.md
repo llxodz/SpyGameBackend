@@ -21,7 +21,7 @@ node index.js
 Next, you need to get an array with the categories of the game. This can be done by request **/allCategories**. The server will start at this address:
 
 ```
-http://localhost:3000
+http://localhost:9001
 ```
 
 ## Warning
