@@ -4,7 +4,7 @@
   "description": "spy game backend",
   "main": "index.js",
   "engines": {
-    "node": "14.x"
+    "node": "20.x"
   },
   "scripts": {
     "test": "test"
