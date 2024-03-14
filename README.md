@@ -2,7 +2,7 @@
 
 ## Description
 
-A server with a single request for the game Spy, created using the **JavaScript** language and the **Express** library.
+The server with a single request for the game Spy, created using the **JavaScript** language and the **Express** library.
 
 ## Usage
 
